@@ -35,6 +35,7 @@
         <title>Weather App</title>
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body style="background-image:url('./images/<?=$current_weather->weather[0]->icon?>.jpg');">
         <main>

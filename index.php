@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     </head>
-    <body>
+    <body style="background-image:url('./images/<?=$current_weather->weather[0]->icon?>.jpg');">
         <main>
             <section class="current-city">
                 <h1><?= calculate_celcius($current_weather->main->temp)?>º</h1>

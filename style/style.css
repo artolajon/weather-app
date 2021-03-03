@@ -19,12 +19,13 @@ h1, h2, h3{
 }
 
 body{
-    background-image: url('https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_960_720.jpg');
+    background: no-repeat center center fixed;
     background-size: cover;
     display: flex;
     font-size: 1.3rem;
     color: white;
 }
+
 
 main{
     flex-grow: 1;
